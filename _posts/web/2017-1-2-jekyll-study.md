@@ -7,9 +7,9 @@ tags : [intro, beginner, jekyll, tutorial]
 {% include JB/setup %}
 
 
-# °²×°ÃüÁî
+# å®‰è£…å‘½ä»¤
 
-## °²×°
+## å®‰è£…
 
 `
 sudo pacman -S ruby
@@ -19,21 +19,21 @@ gem install jekyll-sitemap
 gem install pygments.rb
 `
 
-## ÅäÖÃ
-~/.bashrc PATH ¼ÓÈë£º
+## é…ç½®
+~/.bashrc PATH åŠ å…¥ï¼š
 `
 $(ruby -e 'print Gem.user_dir')/bi
 `
 
-## ÔËĞĞ
+## è¿è¡Œ
 `
 jekyll --version
 jekyll serve --host=0.0.0.0
 `
 
-# ²Î¿¼Á´½Ó
+# å‚è€ƒé“¾æ¥
 
-[ArchLinux °²×° ruby](https://wiki.archlinux.org/index.php/Ruby#RubyGems)
-[Jekyll µÄ°²×°](https://havee.me/internet/2013-07/jekyll-install.html)
+[ArchLinux å®‰è£… ruby](https://wiki.archlinux.org/index.php/Ruby#RubyGems)
+[Jekyll çš„å®‰è£…](https://havee.me/internet/2013-07/jekyll-install.html)
 
 
