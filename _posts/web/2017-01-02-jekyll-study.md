@@ -1,8 +1,8 @@
 ---
 layout: post
-category : lessons
+category : WEB前端
 tagline: "Supporting tagline"
-tags : [intro, beginner, jekyll, tutorial]
+tags : [WEB, jekyll, 教程]
 ---
 {% include JB/setup %}
 
@@ -20,7 +20,7 @@ gem install pygments.rb
 ```
 
 ## 配置
-~/.bashrc PATH 加入 `$(ruby -e 'print Gem.user_dir')/bi`
+~/.bashrc PATH 加入 `$(ruby -e 'print Gem.user_dir')/bin`
 
 ## 运行
 ```
@@ -29,11 +29,15 @@ jekyll serve --host=0.0.0.0
 ```
 
 ## 管理
-安装主题
+
+- 安装主题
+
 ```
 rake theme:install git="https://github.com/jekyllbootstrap/theme-twitter.git"
 ```
-切换主题
+
+- 切换主题
+
 ```
 rake theme:switch name="bootstrap-3"
 ```
