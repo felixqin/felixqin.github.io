@@ -3,6 +3,10 @@
 permalink: /:categories/:year/:month/:day/:title 
 
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
+markdown: kramdown
+kramdown:
+    input: GFM
+#highlighter: rouge
 highlighter: pygments
 
 timezone: Asia/Shanghai
@@ -136,4 +140,3 @@ JB :
   #   ./_includes/custom/[HELPER]
   # where [HELPER] is the name of the helper you are overriding.
   
-  markdown: kramdown
