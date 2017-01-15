@@ -11,7 +11,6 @@ tags : [Android, Android Studio, 教程, joyteam]
 
 Android Studio 本身一个工程可以管理多个项目，但是默认情况下创建的lib和app项目在同一个路径下。在大型工程下，各个lib需要分开管理，且可被多个app复用。本文描述如何构建可复用的lib项目。
 
-[TOC]
 
 ## 目录规划
 
