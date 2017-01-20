@@ -73,5 +73,5 @@ void CRestServer::handle_get_or_post(web::http::http_request message)
 
 [RESTful API 设计最佳实践](http://www.csdn.net/article/2013-06-13/2815744-RESTful-API)
 
-
+[c++并行计算库TBB和PPL的基本用法](http://www.cnblogs.com/qicosmos/p/3517166.html)
 
