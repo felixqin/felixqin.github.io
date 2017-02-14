@@ -10,9 +10,11 @@ tags : [Linux, Docker, Server]
 
 ## 下载
 
-国内网络环境直接下载官网安装包，非常慢，推荐从 DaoCloud 下载。
+国内网络环境直接下载官网安装包，非常慢，推荐从 [DaoCloud](https://www.daocloud.io/) 下载。
 
-[WindowsDocker On DaoCloud](https://dn-dao-github-mirror.qbox.me/docker/install/windows/InstallDocker.msi)
+[WindowsDocker on DaoCloud](https://dn-dao-github-mirror.qbox.me/docker/install/windows/InstallDocker.msi)
+
+[DockerToolbox on DaoCloud](https://dn-dao-github-mirror.daocloud.io/docker/toolbox/releases/download/v1.13.0/DockerToolbox-1.13.0.exe)
 
 
 
