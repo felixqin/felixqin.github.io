@@ -2,7 +2,7 @@
 layout: post
 category : Server
 tagline: "Supporting tagline"
-tags : [Linux, Docker, Server]
+tags : [Linux, Docker, Server, nginx]
 ---
 
 
@@ -35,8 +35,16 @@ server {
 
 ## 启动 docker
 
-```
+```shell
 sudo docker run -d --name webapp -p 80:80 -v `pwd`/config:/etc/nginx/conf.d -v `pwd`/logs:/var/log/nginx nginx
+```
+
+
+
+## 登录docker虚拟机
+
+```shell
+sudo docker exec -it webapp /bin/bash
 ```
 
 
