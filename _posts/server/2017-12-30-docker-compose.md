@@ -7,7 +7,7 @@ tags : [docker, docker-compose, container]
 
 # docker-compose 常见问题
 
-##docker-compose 安装失败
+## docker-compose 安装失败
 
 运行 docker-compose 出现以下错误：
 
